@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.thomionewave.animalcustomearray.MainActivity">
+
+
+    <TextView
+        android:id="@+id/ternaklist"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="Ternak" />
+
+    <TextView
+        android:id="@+id/hutanlist"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="Hutan" />
+
+    <TextView
+        android:id="@+id/lautlist"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="Laut" />
+
+    <TextView
+        android:id="@+id/langkalist"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="Langka" />
+
+    <TextView
+        android:id="@+id/about"
+        style="@style/CategoryStyle"
+        android:background="@color/primary_color"
+        android:gravity="center"
+        android:onClick="about"
+        android:text="About Creators" />
+</LinearLayout>
